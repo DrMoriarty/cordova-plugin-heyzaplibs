@@ -1,0 +1,25 @@
+{
+    "name": "cordova-plugin-heyzaplibs",
+    "version": "1.0.0",
+    "description": "Native libraries for heyzap cordova plugin",
+    "cordova": {
+        "id": "cordova-plugin-heyzaplibs",
+        "platforms": [
+            "android",
+            "ios"
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DrMoriarty/cordova-plugin-heyzaplibs"
+    },
+    "keywords": [
+        "cordova",
+        "heyzap",
+        "ecosystem:cordova",
+        "cordova-android",
+        "cordova-ios"
+    ],
+    "author": "DrMoriarty",
+    "license": "MIT License"
+}
