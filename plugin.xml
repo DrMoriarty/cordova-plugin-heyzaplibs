@@ -25,6 +25,13 @@
   <platform name="android">
     <source-file src="src/android/chartboost.jar" target-dir="libs" />
     <source-file src="src/android/unity-ads.aar" target-dir="libs" />
+    <config-file target="AndroidManifest.xml" parent="/manifest/application">
+      <activity android:name="com.chartboost.sdk.CBImpressionActivity"
+                android:excludeFromRecents="true"
+                android:hardwareAccelerated="true"
+                android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
+                android:configChanges="keyboardHidden|orientation|screenSize" />
+    </config-file>
   </platform>
   
   <!-- winphone8 -->
@@ -41,5 +48,7 @@
     <framework src="src/wp/VK.WindowsPhone.SDK.dll" custom="true"/>
     <source-file src="src/wp/SocialVk.cs"/>
   </platform-->
+
+  <dependency id="heyzap-cordova"/>
 
 </plugin>
