@@ -17,14 +17,11 @@
   <!-- ios -->
   <platform name="ios">
     <framework src="src/ios/Chartboost.framework" custom="true"/>
-    <framework src="src/ios/UnityAds.framework" custom="true"/>
-    <resource-file src="src/ios/UnityAds.bundle" />
   </platform>
 
   <!-- android -->
   <platform name="android">
     <source-file src="src/android/chartboost.jar" target-dir="libs" />
-    <source-file src="src/android/unity-ads.aar" target-dir="libs" />
   </platform>
   
   <!-- winphone8 -->
